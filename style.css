@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap");
+
+p {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.first_50 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: wheat;
+  color: greenyellow;
+  caret-color: greenyellow;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  width: 500px;
+  height: 200px;
+}
+
+.first_50:hover {
+  color: #0f2027;
+}
+
+.second_100 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: wheat;
+  color: #f2ff00;
+  caret-color: #f2ff00;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  width: 500px;
+  height: 200px;
+}
+
+.second_100:hover {
+  color: #0f2027;
+}
+
+.last_140 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: wheat;
+  color: rgb(255, 0, 0);
+  caret-color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 4rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  width: 500px;
+  height: 200px;
+}
+
+.last_140:hover {
+  color: #0f2027;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62, 5%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #0f2027; /* fallback for old browsers */
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+label {
+  font-family: "JetBrains Mono", monospace;
+  position: relative;
+  top: 43%;
+  left: 53%;
+  margin-top: -50px;
+  margin-left: -80px;
+  height: 100%;
+  width: 10%;
+}
