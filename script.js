@@ -1,15 +1,10 @@
 userString = document.getElementById("string").value;
 
-// function countChar(val) {
-//   var len = document.getElementById("string").value.length;
-//   document.getElementById("counter").innerHTML = len;
-// }
-
-function charcountupdate() {
-  userString = document.getElementById("string").value;
-  var lng = userString.length;
-  document.getElementById("counter").innerHTML = lng;
+function countChar(val) {
+  var len = document.getElementById("string").value.length;
+  document.getElementById("counter").innerHTML = len;
 }
+
 
 // Function to change caret color
 function colorChanger() {
